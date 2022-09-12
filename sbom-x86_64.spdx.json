@@ -1,0 +1,2455 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "sbom-sha256:01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "1970-01-01T00:00:00Z",
+    "creators": [
+      "Tool: apko (v0.5.0-115-g0cf1314)",
+      "Organization: Chainguard, Inc"
+    ],
+    "licenseListVersion": "3.16"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://spdx.org/spdxdocs/apko/",
+  "documentDescribes": [
+    "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7"
+  ],
+  "packages": [
+    {
+      "SPDXID": "https-C47C47github.comC47chainguard-devC47vanta-npm.gitC643fdefe867780fb0f0784df7fbea722727a233d2f",
+      "name": "github.com/chainguard-dev/vanta-npm.git",
+      "versionInfo": "3fdefe867780fb0f0784df7fbea722727a233d2f",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Image configuration source",
+      "downloadLocation": "https://github.com/chainguard-dev/vanta-npm.git@3fdefe867780fb0f0784df7fbea722727a233d2f",
+      "copyrightText": "",
+      "primaryPackagePurpose": "SOURCE",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3fdefe867780fb0f0784df7fbea722727a233d2f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/chainguard-dev/vanta-npm@3fdefe867780fb0f0784df7fbea722727a233d2f",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "name": "sha256:01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "versionInfo": "Unknown",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "apko operating system layer",
+      "downloadLocation": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:oci/vanta@sha256:01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7?arch=amd64&mediaType=application%2Fvnd.oci.image.layer.v1.tar%2526gzip&os=linux",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-alpine-baselayout-data-3.3.0-r2",
+      "name": "alpine-baselayout-data",
+      "versionInfo": "3.3.0-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Alpine base dir structure and init scripts",
+      "downloadLocation": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c2d3a8fe01dae2ee4e051a3cea1b409527b02181"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/alpine-baselayout-data@3.3.0-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-musl-1.2.3-r1",
+      "name": "musl",
+      "versionInfo": "1.2.3-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "the musl c library (libc) implementation",
+      "downloadLocation": "https://musl.libc.org/",
+      "originator": "Timo Teräs <timo.teras@iki.fi>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "70386e3b4f3d678db8a0050f1c140a5f9ae4eea4"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/musl@1.2.3-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgpg-error-1.45-r0",
+      "name": "libgpg-error",
+      "versionInfo": "1.45-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Support library for libgcrypt",
+      "downloadLocation": "https://www.gnupg.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c316d1ccbea4d0766b496bb541e337b986430582"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgpg-error@1.45-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcrypt-1.10.1-r0",
+      "name": "libgcrypt",
+      "versionInfo": "1.10.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "General purpose crypto library based on the code used in GnuPG",
+      "downloadLocation": "https://www.gnupg.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0d5d17fe32c13c43f2d7e33359b9ae09d41b1449"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgcrypt@1.10.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-busybox-1.35.0-r25",
+      "name": "busybox",
+      "versionInfo": "1.35.0-r25",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Size optimized toolbox of many common UNIX utilities",
+      "downloadLocation": "https://busybox.net/",
+      "originator": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f2c885add3fc70d5f4c2bc2e7b8bf1158508cf6e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/busybox@1.35.0-r25?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-busybox-binsh-1.35.0-r25",
+      "name": "busybox-binsh",
+      "versionInfo": "1.35.0-r25",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "description": "busybox ash /bin/sh",
+      "downloadLocation": "https://busybox.net/",
+      "originator": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d10dceda2f1d9d29300fd765fb0a88438f18109"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/busybox-binsh@1.35.0-r25?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libffi-3.4.2-r1",
+      "name": "libffi",
+      "versionInfo": "3.4.2-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "portable, high level programming interface to various calling conventions.",
+      "downloadLocation": "https://sourceware.org/libffi/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2f1a57de067f63fc4864e2f274ff38596a75e717"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libffi@3.4.2-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libintl-0.21-r3",
+      "name": "libintl",
+      "versionInfo": "0.21-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU gettext runtime library",
+      "downloadLocation": "https://www.gnu.org/software/gettext/gettext.html",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d8eb983d611bc4ad91f8895054a6848ec50c8219"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libintl@0.21-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libblkid-2.38.1-r0",
+      "name": "libblkid",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Block device identification library from util-linux",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8a9b27bd6465aa135861a2937f9e83d005a7eab9"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libblkid@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libmount-2.38.1-r0",
+      "name": "libmount",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Block device identification library from util-linux",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b575debef92217894643d8a7ba16a297e675a658"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libmount@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pcre-8.45-r2",
+      "name": "pcre",
+      "versionInfo": "8.45-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Perl-compatible regular expression library",
+      "downloadLocation": "https://www.pcre.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "831f8193f493baea16a4e5f1b9c62dd00893d74a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/pcre@8.45-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-zlib-1.2.12-r3",
+      "name": "zlib",
+      "versionInfo": "1.2.12-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A compression/decompression Library",
+      "downloadLocation": "https://zlib.net/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "4b991391aea60636ef354bf699053fa5729c374f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-glib-2.72.3-r0",
+      "name": "glib",
+      "versionInfo": "2.72.3-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Common C routines used by Gtk+ and other libs",
+      "downloadLocation": "https://developer.gnome.org/glib/",
+      "originator": "Rasmus Thomsen <oss@cogitri.dev>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e313ea6d95b6640cd136f702be9ec2841032c8d3"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/glib@2.72.3-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsecret-0.20.5-r0",
+      "name": "libsecret",
+      "versionInfo": "0.20.5-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Library for storing and retrieving passwords and other secrets",
+      "downloadLocation": "https://wiki.gnome.org/Projects/Libsecret",
+      "originator": "Rasmus Thomsen <oss@cogitri.dev>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fed9392c5088f211daaa6b2ce6d12a4f64cb2784"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libsecret@0.20.5-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libbz2-1.0.8-r3",
+      "name": "libbz2",
+      "versionInfo": "1.0.8-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "bzip2-1.0.6",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Shared library for bz2",
+      "downloadLocation": "http://sources.redhat.com/bzip2",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "95b4d27297a681754febebc8fed4da5261b1887a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libbz2@1.0.8-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libcrypto3-3.0.5-r2",
+      "name": "libcrypto3",
+      "versionInfo": "3.0.5-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Crypto library from openssl",
+      "downloadLocation": "https://www.openssl.org/",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e13cb64bebd72265bb1bb14e5e4e1101e6481143"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libcrypto3@3.0.5-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libexpat-2.4.8-r1",
+      "name": "libexpat",
+      "versionInfo": "2.4.8-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "XML Parser library written in C (libraries)",
+      "downloadLocation": "https://libexpat.github.io/",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "91c6520673a48688d31bfea3de037b6435d25778"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libexpat@2.4.8-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gdbm-1.23-r0",
+      "name": "gdbm",
+      "versionInfo": "1.23-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU dbm is a set of database routines that use extensible hashing",
+      "downloadLocation": "https://www.gnu.org/software/gdbm/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "56caed450b79b91ae2adf4f6b6efa41ac7963762"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/gdbm@1.23-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-xz-libs-5.2.6-r1",
+      "name": "xz-libs",
+      "versionInfo": "5.2.6-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Library and CLI tools for XZ and LZMA compressed files (libraries)",
+      "downloadLocation": "https://tukaani.org/xz",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f745e8a4a964a4dee3a89ec74ded9b524384729c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/xz-libs@5.2.6-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcc-12.1.1C95git20220630-r5",
+      "name": "libgcc",
+      "versionInfo": "12.1.1_git20220630-r5",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU C compiler runtime libraries",
+      "downloadLocation": "https://gcc.gnu.org",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "07803d5e22e72b537d6b6d9ded631ae26eb8218e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgcc@12.1.1_git20220630-r5?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libstdcC43C43-12.1.1C95git20220630-r5",
+      "name": "libstdc++",
+      "versionInfo": "12.1.1_git20220630-r5",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU C++ standard runtime library",
+      "downloadLocation": "https://gcc.gnu.org",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e487844df523e5e55d3258a870e9e3d439eb721b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libstdc++@12.1.1_git20220630-r5?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-mpdecimal-2.5.1-r1",
+      "name": "mpdecimal",
+      "versionInfo": "2.5.1-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "complete implementation of the General Decimal Arithmetic Specification",
+      "downloadLocation": "https://www.bytereef.org/mpdecimal/index.html",
+      "originator": "Stefan Stutz <stutz@pm.me>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2d6607d3acdcb154d64d6bfac130fbaf3bcec706"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/mpdecimal@2.5.1-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ncurses-terminfo-base-6.3C95p20220903-r0",
+      "name": "ncurses-terminfo-base",
+      "versionInfo": "6.3_p20220903-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Descriptions of common terminals",
+      "downloadLocation": "https://invisible-island.net/ncurses/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c4c588ec62ad1d954b50552eec98c13a18a84c18"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/ncurses-terminfo-base@6.3_p20220903-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ncurses-libs-6.3C95p20220903-r0",
+      "name": "ncurses-libs",
+      "versionInfo": "6.3_p20220903-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Ncurses libraries",
+      "downloadLocation": "https://invisible-island.net/ncurses/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "afc27675cd2aa66bb851f6bb287a3d50e3da85b2"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/ncurses-libs@6.3_p20220903-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-readline-8.1.2-r0",
+      "name": "readline",
+      "versionInfo": "8.1.2-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU readline library",
+      "downloadLocation": "https://tiswww.cwru.edu/php/chet/readline/rltop.html",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "adc32488b655c99de2564a3d871105bbd3bd030f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/readline@8.1.2-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-sqlite-libs-3.39.3-r0",
+      "name": "sqlite-libs",
+      "versionInfo": "3.39.3-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "blessing",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Sqlite3 library",
+      "downloadLocation": "https://www.sqlite.org/",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "390872c515692d4e362f10b8066f9f51b179022b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/sqlite-libs@3.39.3-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libssl3-3.0.5-r2",
+      "name": "libssl3",
+      "versionInfo": "3.0.5-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "description": "SSL shared libraries",
+      "downloadLocation": "https://www.openssl.org/",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cb22fe6a1cb174334f8625ab215c5ae38ae5bbfa"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libssl3@3.0.5-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-sslC95client-1.35.0-r25",
+      "name": "ssl_client",
+      "versionInfo": "1.35.0-r25",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "description": "EXternal ssl_client for busybox wget",
+      "downloadLocation": "https://busybox.net/",
+      "originator": "Sören Tempel <soeren+alpine@soeren-tempel.net>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6e955ab34f131e28130f2c99699839455190ab7e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/ssl_client@1.35.0-r25?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-python3-3.10.7-r0",
+      "name": "python3",
+      "versionInfo": "3.10.7-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "PSF-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A high-level scripting language",
+      "downloadLocation": "https://www.python.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "a6770fc9f4095320714efc00cf711cd4ee0ef716"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/python3@3.10.7-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-asprintf-0.21-r3",
+      "name": "gettext-asprintf",
+      "versionInfo": "0.21-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU gettext asprintf library",
+      "downloadLocation": "https://www.gnu.org/software/gettext/gettext.html",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6729160c4fd2d1887bcba49c3da2cf9bf5d6e5b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/gettext-asprintf@0.21-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libunistring-1.0-r0",
+      "name": "libunistring",
+      "versionInfo": "1.0-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Library for manipulating Unicode strings and C strings",
+      "downloadLocation": "https://www.gnu.org/software/libunistring/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f87b3b51d145a68d607dc4227461c215d7b5b417"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libunistring@1.0-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-libs-0.21-r3",
+      "name": "gettext-libs",
+      "versionInfo": "0.21-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU locale utilities (libraries)",
+      "downloadLocation": "https://www.gnu.org/software/gettext/gettext.html",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e660f6c445928cb4b274b25ff3ec269bb1bbeed0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/gettext-libs@0.21-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgomp-12.1.1C95git20220630-r5",
+      "name": "libgomp",
+      "versionInfo": "12.1.1_git20220630-r5",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GCC shared-memory parallel programming API library",
+      "downloadLocation": "https://gcc.gnu.org",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "96f61e845944f2545ffc422b530ec2836f8c799a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgomp@12.1.1_git20220630-r5?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxml2-2.10.2-r0",
+      "name": "libxml2",
+      "versionInfo": "2.10.2-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "XML parsing library, version 2",
+      "downloadLocation": "http://www.xmlsoft.org/",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "faced54d82c96a2f4e3fb0773ceee80a9b3d5edb"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libxml2@2.10.2-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-0.21-r3",
+      "name": "gettext",
+      "versionInfo": "0.21-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU locale utilities",
+      "downloadLocation": "https://www.gnu.org/software/gettext/gettext.html",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f259a2dedd8bbeb46aab28dd05f4d6b9d4140976"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/gettext@0.21-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-dev-0.21-r3",
+      "name": "gettext-dev",
+      "versionInfo": "0.21-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "GNU locale utilities (development files)",
+      "downloadLocation": "https://www.gnu.org/software/gettext/gettext.html",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "86ef7e7ce5e6509ec454aa7a56d4b4ff195436fa"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/gettext-dev@0.21-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pkgconf-1.9.3-r0",
+      "name": "pkgconf",
+      "versionInfo": "1.9.3-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "ISC",
+      "licenseDeclared": "NOASSERTION",
+      "description": "development framework configuration tools",
+      "downloadLocation": "https://git.sr.ht/~kaniini/pkgconf",
+      "originator": "Ariadne Conill <ariadne@dereferenced.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0ff1c152e0d8610d8c38fd711cc7d9186d2d0c0e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/pkgconf@1.9.3-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-bzip2-dev-1.0.8-r3",
+      "name": "bzip2-dev",
+      "versionInfo": "1.0.8-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "bzip2-1.0.6",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A high-quality data compression program (development files)",
+      "downloadLocation": "http://sources.redhat.com/bzip2",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "22d9ec62bc08950e9c1c8f979fcd7db8f2b90b2e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/bzip2-dev@1.0.8-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxml2-utils-2.10.2-r0",
+      "name": "libxml2-utils",
+      "versionInfo": "2.10.2-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "XML utilities",
+      "downloadLocation": "http://www.xmlsoft.org/",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8d6a717bfc9843082c103b92f68b44be5f815b7f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libxml2-utils@2.10.2-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxslt-1.1.36-r0",
+      "name": "libxslt",
+      "versionInfo": "1.1.36-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "custom",
+      "licenseDeclared": "NOASSERTION",
+      "description": "XML stylesheet transformation library",
+      "downloadLocation": "http://xmlsoft.org/XSLT/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8330b48cb67ca5521c884010b3b5d2c1277f17f0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libxslt@1.1.36-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-docbook-xml-4.5-r7",
+      "name": "docbook-xml",
+      "versionInfo": "4.5-r7",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A widely used XML scheme for writing documentation and help",
+      "downloadLocation": "http://scrollkeeper.sourceforge.net/docbook.shtml",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bad33158197b62b63053843b414c889229d5b12c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/docbook-xml@4.5-r7?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-docbook-xsl-1.79.2-r4",
+      "name": "docbook-xsl",
+      "versionInfo": "1.79.2-r4",
+      "filesAnalyzed": false,
+      "licenseConcluded": "custom",
+      "licenseDeclared": "NOASSERTION",
+      "description": "XML stylesheets for Docbook-xml transformations.",
+      "downloadLocation": "https://docbook.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "639f663b2731d41674ca43e71c3b54edd90cb263"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/docbook-xsl@1.79.2-r4?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-linux-headers-5.19.5-r0",
+      "name": "linux-headers",
+      "versionInfo": "5.19.5-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Linux system headers",
+      "downloadLocation": "https://kernel.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "dd89bd62b6f7b473eb64146fdf2f9b31311f6545"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/linux-headers@5.19.5-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libffi-dev-3.4.2-r1",
+      "name": "libffi-dev",
+      "versionInfo": "3.4.2-r1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "portable, high level programming interface to various calling conventions. (development files)",
+      "downloadLocation": "https://sourceware.org/libffi/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "39a765e7a1eacfa0575f5f1319a37caa50b17db7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libffi-dev@3.4.2-r1?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcre16-8.45-r2",
+      "name": "libpcre16",
+      "versionInfo": "8.45-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "PCRE with 16 bit character support",
+      "downloadLocation": "https://www.pcre.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "de965dfab14483c01e7e8bd07427091dcad99c59"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libpcre16@8.45-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcre32-8.45-r2",
+      "name": "libpcre32",
+      "versionInfo": "8.45-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "PCRE with 32 bit character support",
+      "downloadLocation": "https://www.pcre.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "b759ab80986d8ab824420c7b69157cd939b8ae45"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libpcre32@8.45-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcrecpp-8.45-r2",
+      "name": "libpcrecpp",
+      "versionInfo": "8.45-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "C++ bindings for PCRE",
+      "downloadLocation": "https://www.pcre.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cfa6272c55c9e4cc33d407d63dbdca4e2c87870b"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libpcrecpp@8.45-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pcre-dev-8.45-r2",
+      "name": "pcre-dev",
+      "versionInfo": "8.45-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Perl-compatible regular expression library (development files)",
+      "downloadLocation": "https://www.pcre.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "778049f2478d00a1e1a3b36aa0178a6f935e96b6"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/pcre-dev@8.45-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libuuid-2.38.1-r0",
+      "name": "libuuid",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "DCE compatible Universally Unique Identifier library",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28db318468c2fc095bc78a800a0c033b12fa0a88"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libuuid@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libfdisk-2.38.1-r0",
+      "name": "libfdisk",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Partitioning library for fdisk-like programs",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "daddca096d9da1e5f19459e0c6e6d651df8fbc6a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libfdisk@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsmartcols-2.38.1-r0",
+      "name": "libsmartcols",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Formatting library for ls-like programs",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e9581ce581e49857f20c65a8f3f2dc5cb5424f01"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libsmartcols@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-util-linux-dev-2.38.1-r0",
+      "name": "util-linux-dev",
+      "versionInfo": "2.38.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Random collection of Linux utilities (development files)",
+      "downloadLocation": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8de1435a24d478f080eafe1a6473fd60f66c4d66"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/util-linux-dev@2.38.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-zlib-dev-1.2.12-r3",
+      "name": "zlib-dev",
+      "versionInfo": "1.2.12-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A compression/decompression Library (development files)",
+      "downloadLocation": "https://zlib.net/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "7cbbd4a478bbbd04b7d7cdb96d4c4778f9cd4844"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/zlib-dev@1.2.12-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-glib-dev-2.72.3-r0",
+      "name": "glib-dev",
+      "versionInfo": "2.72.3-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Common C routines used by Gtk+ and other libs (development files)",
+      "downloadLocation": "https://developer.gnome.org/glib/",
+      "originator": "Rasmus Thomsen <oss@cogitri.dev>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1aed467d5684778d44f406c8ea070f1371c57fb5"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/glib-dev@2.72.3-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgpg-error-dev-1.45-r0",
+      "name": "libgpg-error-dev",
+      "versionInfo": "1.45-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Support library for libgcrypt (development files)",
+      "downloadLocation": "https://www.gnupg.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "28da90718a55e70919ae83a39e14384e03fe6a00"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgpg-error-dev@1.45-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcrypt-dev-1.10.1-r0",
+      "name": "libgcrypt-dev",
+      "versionInfo": "1.10.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.1-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "General purpose crypto library based on the code used in GnuPG (development files)",
+      "downloadLocation": "https://www.gnupg.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f32e46ebf00ebf4c2ef0dac641901cea69643666"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libgcrypt-dev@1.10.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsecret-dev-0.20.5-r0",
+      "name": "libsecret-dev",
+      "versionInfo": "0.20.5-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "LGPL-2.0-or-later",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Library for storing and retrieving passwords and other secrets (development files)",
+      "downloadLocation": "https://wiki.gnome.org/Projects/Libsecret",
+      "originator": "Rasmus Thomsen <oss@cogitri.dev>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "e92f8b3f4e7f7c9129962fe3906dc3c9f9642386"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libsecret-dev@0.20.5-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-lua5.3-libs-5.3.6-r4",
+      "name": "lua5.3-libs",
+      "versionInfo": "5.3.6-r4",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Lua dynamic library runtime",
+      "downloadLocation": "https://www.lua.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6fc93d98faba833283c34fb7c3e6ff974bebc084"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/lua5.3-libs@5.3.6-r4?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcap-1.10.1-r0",
+      "name": "libpcap",
+      "versionInfo": "1.10.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "A system-independent interface for user-level packet capture",
+      "downloadLocation": "https://www.tcpdump.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fd07c11eb89109164de383faa4e1b3959a66a0a0"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libpcap@1.10.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libssh2-1.10.0-r3",
+      "name": "libssh2",
+      "versionInfo": "1.10.0-r3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-3-Clause",
+      "licenseDeclared": "NOASSERTION",
+      "description": "library for accessing ssh1/ssh2 protocol servers",
+      "downloadLocation": "https://libssh2.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "611e245b71eb4b56b15f65f1a53dfff2d59fd0b7"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/libssh2@1.10.0-r3?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nmap-7.93-r0",
+      "name": "nmap",
+      "versionInfo": "7.93-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "custom",
+      "licenseDeclared": "NOASSERTION",
+      "description": "network exploration tool and security/port scanner",
+      "downloadLocation": "https://nmap.org",
+      "originator": "Leonardo Arena <rnalrd@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "9af3c86948dbf632ceaf2497a8b7f394881f377c"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/nmap@7.93-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ca-certificates-20220614-r2",
+      "name": "ca-certificates",
+      "versionInfo": "20220614-r2",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MPL-2.0 AND MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Common CA certificates PEM files from Mozilla",
+      "downloadLocation": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "cb682b5944360e02eea718fb46c8e75fecd0851e"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/ca-certificates@20220614-r2?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nghttp2-libs-1.49.0-r0",
+      "name": "nghttp2-libs",
+      "versionInfo": "1.49.0-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Experimental HTTP/2 client, server and proxy (libraries)",
+      "downloadLocation": "https://nghttp2.org",
+      "originator": "Francesco Colista <fcolista@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8bf8e80fdca558b8c1b86b645dc0561b3f7aef4a"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/nghttp2-libs@1.49.0-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-brotli-libs-1.0.9-r8",
+      "name": "brotli-libs",
+      "versionInfo": "1.0.9-r8",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Generic lossless compressor (libraries)",
+      "downloadLocation": "https://github.com/google/brotli",
+      "originator": "prspkt <prspkt@protonmail.com>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "43654a9abaabb62b32d98daeaae0cb595e68c136"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/brotli-libs@1.0.9-r8?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-c-ares-1.18.1-r0",
+      "name": "c-ares",
+      "versionInfo": "1.18.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "An asynchronously DNS/names resolver library",
+      "downloadLocation": "https://c-ares.haxx.se/",
+      "originator": "Carlo Landmeter <clandmeter@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5f9a6489367d65b6a8de8af1cd0e68c6c6582a39"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/c-ares@1.18.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-icu-data-en-71.1-r4",
+      "name": "icu-data-en",
+      "versionInfo": "71.1-r4",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT ICU Unicode-TOU",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Stripped down ICU data with only en_US/GB locale and no legacy charset converters",
+      "downloadLocation": "https://icu.unicode.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c973599a1fc025d3a2424606f49c2a42acab2ea1"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/icu-data-en@71.1-r4?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-icu-libs-71.1-r4",
+      "name": "icu-libs",
+      "versionInfo": "71.1-r4",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT ICU Unicode-TOU",
+      "licenseDeclared": "NOASSERTION",
+      "description": "International Components for Unicode library (libraries)",
+      "downloadLocation": "https://icu.unicode.org/",
+      "originator": "Natanael Copa <ncopa@alpinelinux.org>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "c851f953b2d56fe350634745c39b44c6437edb21"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/icu-libs@71.1-r4?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nodejs-16.17.0-r0",
+      "name": "nodejs",
+      "versionInfo": "16.17.0-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "description": "JavaScript runtime built on V8 engine - LTS version",
+      "downloadLocation": "https://nodejs.org/",
+      "originator": "Jakub Jirutka <jakub@jirutka.cz>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d27c9c217e80b2950c17f8e4f8e05c04d458000f"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/nodejs@16.17.0-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-npm-8.19.1-r0",
+      "name": "npm",
+      "versionInfo": "8.19.1-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Artistic-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "description": "The package manager for JavaScript",
+      "downloadLocation": "https://www.npmjs.com/",
+      "originator": "Jakub Jirutka <jakub@jirutka.cz>",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "6caaf8dfe5870d597b0bfa61d3431b2df68dfc72"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/npm@8.19.1-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    },
+    {
+      "SPDXID": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-hello-server-0.1.0-r0",
+      "name": "hello-server",
+      "versionInfo": "0.1.0-r0",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "description": "vanta npm image",
+      "sourceInfo": "Package info from apk database",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "92f49c4cbf8bed3955bd6dd1fdef0bc9d7cea501"
+        }
+      ],
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:apk/alpine/hello-server@0.1.0-r0?arch=x86_64",
+          "referenceType": "purl"
+        }
+      ],
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": ""
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "https-C47C47github.comC47chainguard-devC47vanta-npm.gitC643fdefe867780fb0f0784df7fbea722727a233d2f"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-alpine-baselayout-data-3.3.0-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-musl-1.2.3-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgpg-error-1.45-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcrypt-1.10.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-busybox-1.35.0-r25"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-busybox-binsh-1.35.0-r25"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libffi-3.4.2-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libintl-0.21-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libblkid-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libmount-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pcre-8.45-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-zlib-1.2.12-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-glib-2.72.3-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsecret-0.20.5-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libbz2-1.0.8-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libcrypto3-3.0.5-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libexpat-2.4.8-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gdbm-1.23-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-xz-libs-5.2.6-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcc-12.1.1C95git20220630-r5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libstdcC43C43-12.1.1C95git20220630-r5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-mpdecimal-2.5.1-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ncurses-terminfo-base-6.3C95p20220903-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ncurses-libs-6.3C95p20220903-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-readline-8.1.2-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-sqlite-libs-3.39.3-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libssl3-3.0.5-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-sslC95client-1.35.0-r25"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-python3-3.10.7-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-asprintf-0.21-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libunistring-1.0-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-libs-0.21-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgomp-12.1.1C95git20220630-r5"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxml2-2.10.2-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-0.21-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-gettext-dev-0.21-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pkgconf-1.9.3-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-bzip2-dev-1.0.8-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxml2-utils-2.10.2-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libxslt-1.1.36-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-docbook-xml-4.5-r7"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-docbook-xsl-1.79.2-r4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-linux-headers-5.19.5-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libffi-dev-3.4.2-r1"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcre16-8.45-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcre32-8.45-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcrecpp-8.45-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-pcre-dev-8.45-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libuuid-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libfdisk-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsmartcols-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-util-linux-dev-2.38.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-zlib-dev-1.2.12-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-glib-dev-2.72.3-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgpg-error-dev-1.45-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libgcrypt-dev-1.10.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libsecret-dev-0.20.5-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-lua5.3-libs-5.3.6-r4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libpcap-1.10.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-libssh2-1.10.0-r3"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nmap-7.93-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-ca-certificates-20220614-r2"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nghttp2-libs-1.49.0-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-brotli-libs-1.0.9-r8"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-c-ares-1.18.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-icu-data-en-71.1-r4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-icu-libs-71.1-r4"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-nodejs-16.17.0-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-npm-8.19.1-r0"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-Package-SPDXRef-Package-sha256-01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7-hello-server-0.1.0-r0"
+    }
+  ]
+}

@@ -11,6 +11,10 @@ package:
   dependencies:
     runtime:
       - nodejs
+      - npm
+      - libsecret-dev
+      - nmap
+      - pkgconfig
 
 environment:
   contents:
@@ -23,9 +27,6 @@ environment:
       - busybox
       - nodejs
       - npm
-      - libsecret-dev
-      - nmap
-      - pkgconfig
 
 pipeline:
   - name: Build Node application

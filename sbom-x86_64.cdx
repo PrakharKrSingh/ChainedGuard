@@ -1,0 +1,1283 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "pkg:oci/vanta@sha256:01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7?arch=amd64&mediaType=application%2Fvnd.oci.image.manifest.v1%2526json&os=linux",
+      "type": "operating-system",
+      "name": "Alpine Linux",
+      "version": "Unknown",
+      "description": "apko OS layer",
+      "purl": "pkg:oci/vanta@sha256:01c57aaff6542707bc8a29eda4ceb140a90e0ca599dd658892c4c443f7e192f7?arch=amd64&mediaType=application%2Fvnd.oci.image.layer.v1.tar%2526gzip&os=linux",
+      "externalReferences": [
+        {
+          "url": "https://github.com/chainguard-dev/vanta-npm.git@3fdefe867780fb0f0784df7fbea722727a233d2f",
+          "type": "vcs"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "pkg:apk/alpine/alpine-baselayout-data@3.3.0-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "alpine-baselayout-data",
+          "version": "3.3.0-r2",
+          "description": "Alpine base dir structure and init scripts",
+          "purl": "pkg:apk/alpine/alpine-baselayout-data@3.3.0-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-only"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/musl@1.2.3-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "musl",
+          "version": "1.2.3-r1",
+          "description": "the musl c library (libc) implementation",
+          "purl": "pkg:apk/alpine/musl@1.2.3-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgpg-error@1.45-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgpg-error",
+          "version": "1.45-r0",
+          "description": "Support library for libgcrypt",
+          "purl": "pkg:apk/alpine/libgpg-error@1.45-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgcrypt@1.10.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgcrypt",
+          "version": "1.10.1-r0",
+          "description": "General purpose crypto library based on the code used in GnuPG",
+          "purl": "pkg:apk/alpine/libgcrypt@1.10.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/busybox@1.35.0-r25?arch=x86_64",
+          "type": "operating-system",
+          "name": "busybox",
+          "version": "1.35.0-r25",
+          "description": "Size optimized toolbox of many common UNIX utilities",
+          "purl": "pkg:apk/alpine/busybox@1.35.0-r25?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-only"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/busybox-binsh@1.35.0-r25?arch=x86_64",
+          "type": "operating-system",
+          "name": "busybox-binsh",
+          "version": "1.35.0-r25",
+          "description": "busybox ash /bin/sh",
+          "purl": "pkg:apk/alpine/busybox-binsh@1.35.0-r25?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-only"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libffi@3.4.2-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "libffi",
+          "version": "3.4.2-r1",
+          "description": "portable, high level programming interface to various calling conventions.",
+          "purl": "pkg:apk/alpine/libffi@3.4.2-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libintl@0.21-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "libintl",
+          "version": "0.21-r3",
+          "description": "GNU gettext runtime library",
+          "purl": "pkg:apk/alpine/libintl@0.21-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libblkid@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libblkid",
+          "version": "2.38.1-r0",
+          "description": "Block device identification library from util-linux",
+          "purl": "pkg:apk/alpine/libblkid@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libmount@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libmount",
+          "version": "2.38.1-r0",
+          "description": "Block device identification library from util-linux",
+          "purl": "pkg:apk/alpine/libmount@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/pcre@8.45-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "pcre",
+          "version": "8.45-r2",
+          "description": "Perl-compatible regular expression library",
+          "purl": "pkg:apk/alpine/pcre@8.45-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "zlib",
+          "version": "1.2.12-r3",
+          "description": "A compression/decompression Library",
+          "purl": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Zlib"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/glib@2.72.3-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "glib",
+          "version": "2.72.3-r0",
+          "description": "Common C routines used by Gtk+ and other libs",
+          "purl": "pkg:apk/alpine/glib@2.72.3-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libsecret@0.20.5-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libsecret",
+          "version": "0.20.5-r0",
+          "description": "Library for storing and retrieving passwords and other secrets",
+          "purl": "pkg:apk/alpine/libsecret@0.20.5-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.0-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libbz2@1.0.8-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "libbz2",
+          "version": "1.0.8-r3",
+          "description": "Shared library for bz2",
+          "purl": "pkg:apk/alpine/libbz2@1.0.8-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "bzip2-1.0.6"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libcrypto3@3.0.5-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "libcrypto3",
+          "version": "3.0.5-r2",
+          "description": "Crypto library from openssl",
+          "purl": "pkg:apk/alpine/libcrypto3@3.0.5-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Apache-2.0"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libexpat@2.4.8-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "libexpat",
+          "version": "2.4.8-r1",
+          "description": "XML Parser library written in C (libraries)",
+          "purl": "pkg:apk/alpine/libexpat@2.4.8-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/gdbm@1.23-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "gdbm",
+          "version": "1.23-r0",
+          "description": "GNU dbm is a set of database routines that use extensible hashing",
+          "purl": "pkg:apk/alpine/gdbm@1.23-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-3.0-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/xz-libs@5.2.6-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "xz-libs",
+          "version": "5.2.6-r1",
+          "description": "Library and CLI tools for XZ and LZMA compressed files (libraries)",
+          "purl": "pkg:apk/alpine/xz-libs@5.2.6-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later AND Public-Domain AND LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgcc@12.1.1_git20220630-r5?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgcc",
+          "version": "12.1.1_git20220630-r5",
+          "description": "GNU C compiler runtime libraries",
+          "purl": "pkg:apk/alpine/libgcc@12.1.1_git20220630-r5?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libstdc++@12.1.1_git20220630-r5?arch=x86_64",
+          "type": "operating-system",
+          "name": "libstdc++",
+          "version": "12.1.1_git20220630-r5",
+          "description": "GNU C++ standard runtime library",
+          "purl": "pkg:apk/alpine/libstdc++@12.1.1_git20220630-r5?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/mpdecimal@2.5.1-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "mpdecimal",
+          "version": "2.5.1-r1",
+          "description": "complete implementation of the General Decimal Arithmetic Specification",
+          "purl": "pkg:apk/alpine/mpdecimal@2.5.1-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-2-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/ncurses-terminfo-base@6.3_p20220903-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "ncurses-terminfo-base",
+          "version": "6.3_p20220903-r0",
+          "description": "Descriptions of common terminals",
+          "purl": "pkg:apk/alpine/ncurses-terminfo-base@6.3_p20220903-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/ncurses-libs@6.3_p20220903-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "ncurses-libs",
+          "version": "6.3_p20220903-r0",
+          "description": "Ncurses libraries",
+          "purl": "pkg:apk/alpine/ncurses-libs@6.3_p20220903-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/readline@8.1.2-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "readline",
+          "version": "8.1.2-r0",
+          "description": "GNU readline library",
+          "purl": "pkg:apk/alpine/readline@8.1.2-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/sqlite-libs@3.39.3-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "sqlite-libs",
+          "version": "3.39.3-r0",
+          "description": "Sqlite3 library",
+          "purl": "pkg:apk/alpine/sqlite-libs@3.39.3-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "blessing"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libssl3@3.0.5-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "libssl3",
+          "version": "3.0.5-r2",
+          "description": "SSL shared libraries",
+          "purl": "pkg:apk/alpine/libssl3@3.0.5-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Apache-2.0"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/ssl_client@1.35.0-r25?arch=x86_64",
+          "type": "operating-system",
+          "name": "ssl_client",
+          "version": "1.35.0-r25",
+          "description": "EXternal ssl_client for busybox wget",
+          "purl": "pkg:apk/alpine/ssl_client@1.35.0-r25?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-only"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/python3@3.10.7-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "python3",
+          "version": "3.10.7-r0",
+          "description": "A high-level scripting language",
+          "purl": "pkg:apk/alpine/python3@3.10.7-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "PSF-2.0"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/gettext-asprintf@0.21-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "gettext-asprintf",
+          "version": "0.21-r3",
+          "description": "GNU gettext asprintf library",
+          "purl": "pkg:apk/alpine/gettext-asprintf@0.21-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libunistring@1.0-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libunistring",
+          "version": "1.0-r0",
+          "description": "Library for manipulating Unicode strings and C strings",
+          "purl": "pkg:apk/alpine/libunistring@1.0-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later OR LGPL-3.0-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/gettext-libs@0.21-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "gettext-libs",
+          "version": "0.21-r3",
+          "description": "GNU locale utilities (libraries)",
+          "purl": "pkg:apk/alpine/gettext-libs@0.21-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgomp@12.1.1_git20220630-r5?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgomp",
+          "version": "12.1.1_git20220630-r5",
+          "description": "GCC shared-memory parallel programming API library",
+          "purl": "pkg:apk/alpine/libgomp@12.1.1_git20220630-r5?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libxml2@2.10.2-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libxml2",
+          "version": "2.10.2-r0",
+          "description": "XML parsing library, version 2",
+          "purl": "pkg:apk/alpine/libxml2@2.10.2-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/gettext@0.21-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "gettext",
+          "version": "0.21-r3",
+          "description": "GNU locale utilities",
+          "purl": "pkg:apk/alpine/gettext@0.21-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/gettext-dev@0.21-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "gettext-dev",
+          "version": "0.21-r3",
+          "description": "GNU locale utilities (development files)",
+          "purl": "pkg:apk/alpine/gettext-dev@0.21-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-3.0-or-later AND LGPL-2.1-or-later AND MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/pkgconf@1.9.3-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "pkgconf",
+          "version": "1.9.3-r0",
+          "description": "development framework configuration tools",
+          "purl": "pkg:apk/alpine/pkgconf@1.9.3-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "ISC"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/bzip2-dev@1.0.8-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "bzip2-dev",
+          "version": "1.0.8-r3",
+          "description": "A high-quality data compression program (development files)",
+          "purl": "pkg:apk/alpine/bzip2-dev@1.0.8-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "bzip2-1.0.6"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libxml2-utils@2.10.2-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libxml2-utils",
+          "version": "2.10.2-r0",
+          "description": "XML utilities",
+          "purl": "pkg:apk/alpine/libxml2-utils@2.10.2-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libxslt@1.1.36-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libxslt",
+          "version": "1.1.36-r0",
+          "description": "XML stylesheet transformation library",
+          "purl": "pkg:apk/alpine/libxslt@1.1.36-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "custom"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/docbook-xml@4.5-r7?arch=x86_64",
+          "type": "operating-system",
+          "name": "docbook-xml",
+          "version": "4.5-r7",
+          "description": "A widely used XML scheme for writing documentation and help",
+          "purl": "pkg:apk/alpine/docbook-xml@4.5-r7?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/docbook-xsl@1.79.2-r4?arch=x86_64",
+          "type": "operating-system",
+          "name": "docbook-xsl",
+          "version": "1.79.2-r4",
+          "description": "XML stylesheets for Docbook-xml transformations.",
+          "purl": "pkg:apk/alpine/docbook-xsl@1.79.2-r4?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "custom"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/linux-headers@5.19.5-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "linux-headers",
+          "version": "5.19.5-r0",
+          "description": "Linux system headers",
+          "purl": "pkg:apk/alpine/linux-headers@5.19.5-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-only"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libffi-dev@3.4.2-r1?arch=x86_64",
+          "type": "operating-system",
+          "name": "libffi-dev",
+          "version": "3.4.2-r1",
+          "description": "portable, high level programming interface to various calling conventions. (development files)",
+          "purl": "pkg:apk/alpine/libffi-dev@3.4.2-r1?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libpcre16@8.45-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "libpcre16",
+          "version": "8.45-r2",
+          "description": "PCRE with 16 bit character support",
+          "purl": "pkg:apk/alpine/libpcre16@8.45-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libpcre32@8.45-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "libpcre32",
+          "version": "8.45-r2",
+          "description": "PCRE with 32 bit character support",
+          "purl": "pkg:apk/alpine/libpcre32@8.45-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libpcrecpp@8.45-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "libpcrecpp",
+          "version": "8.45-r2",
+          "description": "C++ bindings for PCRE",
+          "purl": "pkg:apk/alpine/libpcrecpp@8.45-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/pcre-dev@8.45-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "pcre-dev",
+          "version": "8.45-r2",
+          "description": "Perl-compatible regular expression library (development files)",
+          "purl": "pkg:apk/alpine/pcre-dev@8.45-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libuuid@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libuuid",
+          "version": "2.38.1-r0",
+          "description": "DCE compatible Universally Unique Identifier library",
+          "purl": "pkg:apk/alpine/libuuid@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libfdisk@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libfdisk",
+          "version": "2.38.1-r0",
+          "description": "Partitioning library for fdisk-like programs",
+          "purl": "pkg:apk/alpine/libfdisk@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libsmartcols@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libsmartcols",
+          "version": "2.38.1-r0",
+          "description": "Formatting library for ls-like programs",
+          "purl": "pkg:apk/alpine/libsmartcols@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/util-linux-dev@2.38.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "util-linux-dev",
+          "version": "2.38.1-r0",
+          "description": "Random collection of Linux utilities (development files)",
+          "purl": "pkg:apk/alpine/util-linux-dev@2.38.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/zlib-dev@1.2.12-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "zlib-dev",
+          "version": "1.2.12-r3",
+          "description": "A compression/decompression Library (development files)",
+          "purl": "pkg:apk/alpine/zlib-dev@1.2.12-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Zlib"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/glib-dev@2.72.3-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "glib-dev",
+          "version": "2.72.3-r0",
+          "description": "Common C routines used by Gtk+ and other libs (development files)",
+          "purl": "pkg:apk/alpine/glib-dev@2.72.3-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgpg-error-dev@1.45-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgpg-error-dev",
+          "version": "1.45-r0",
+          "description": "Support library for libgcrypt (development files)",
+          "purl": "pkg:apk/alpine/libgpg-error-dev@1.45-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "GPL-2.0-or-later LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libgcrypt-dev@1.10.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libgcrypt-dev",
+          "version": "1.10.1-r0",
+          "description": "General purpose crypto library based on the code used in GnuPG (development files)",
+          "purl": "pkg:apk/alpine/libgcrypt-dev@1.10.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.1-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libsecret-dev@0.20.5-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libsecret-dev",
+          "version": "0.20.5-r0",
+          "description": "Library for storing and retrieving passwords and other secrets (development files)",
+          "purl": "pkg:apk/alpine/libsecret-dev@0.20.5-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "LGPL-2.0-or-later"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/lua5.3-libs@5.3.6-r4?arch=x86_64",
+          "type": "operating-system",
+          "name": "lua5.3-libs",
+          "version": "5.3.6-r4",
+          "description": "Lua dynamic library runtime",
+          "purl": "pkg:apk/alpine/lua5.3-libs@5.3.6-r4?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libpcap@1.10.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "libpcap",
+          "version": "1.10.1-r0",
+          "description": "A system-independent interface for user-level packet capture",
+          "purl": "pkg:apk/alpine/libpcap@1.10.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/libssh2@1.10.0-r3?arch=x86_64",
+          "type": "operating-system",
+          "name": "libssh2",
+          "version": "1.10.0-r3",
+          "description": "library for accessing ssh1/ssh2 protocol servers",
+          "purl": "pkg:apk/alpine/libssh2@1.10.0-r3?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/nmap@7.93-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "nmap",
+          "version": "7.93-r0",
+          "description": "network exploration tool and security/port scanner",
+          "purl": "pkg:apk/alpine/nmap@7.93-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "custom"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/ca-certificates@20220614-r2?arch=x86_64",
+          "type": "operating-system",
+          "name": "ca-certificates",
+          "version": "20220614-r2",
+          "description": "Common CA certificates PEM files from Mozilla",
+          "purl": "pkg:apk/alpine/ca-certificates@20220614-r2?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MPL-2.0 AND MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/nghttp2-libs@1.49.0-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "nghttp2-libs",
+          "version": "1.49.0-r0",
+          "description": "Experimental HTTP/2 client, server and proxy (libraries)",
+          "purl": "pkg:apk/alpine/nghttp2-libs@1.49.0-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/brotli-libs@1.0.9-r8?arch=x86_64",
+          "type": "operating-system",
+          "name": "brotli-libs",
+          "version": "1.0.9-r8",
+          "description": "Generic lossless compressor (libraries)",
+          "purl": "pkg:apk/alpine/brotli-libs@1.0.9-r8?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/c-ares@1.18.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "c-ares",
+          "version": "1.18.1-r0",
+          "description": "An asynchronously DNS/names resolver library",
+          "purl": "pkg:apk/alpine/c-ares@1.18.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/icu-data-en@71.1-r4?arch=x86_64",
+          "type": "operating-system",
+          "name": "icu-data-en",
+          "version": "71.1-r4",
+          "description": "Stripped down ICU data with only en_US/GB locale and no legacy charset converters",
+          "purl": "pkg:apk/alpine/icu-data-en@71.1-r4?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT ICU Unicode-TOU"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/icu-libs@71.1-r4?arch=x86_64",
+          "type": "operating-system",
+          "name": "icu-libs",
+          "version": "71.1-r4",
+          "description": "International Components for Unicode library (libraries)",
+          "purl": "pkg:apk/alpine/icu-libs@71.1-r4?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT ICU Unicode-TOU"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/nodejs@16.17.0-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "nodejs",
+          "version": "16.17.0-r0",
+          "description": "JavaScript runtime built on V8 engine - LTS version",
+          "purl": "pkg:apk/alpine/nodejs@16.17.0-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/npm@8.19.1-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "npm",
+          "version": "8.19.1-r0",
+          "description": "The package manager for JavaScript",
+          "purl": "pkg:apk/alpine/npm@8.19.1-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Artistic-2.0"
+            }
+          ]
+        },
+        {
+          "bom-ref": "pkg:apk/alpine/hello-server@0.1.0-r0?arch=x86_64",
+          "type": "operating-system",
+          "name": "hello-server",
+          "version": "0.1.0-r0",
+          "description": "vanta npm image",
+          "purl": "pkg:apk/alpine/hello-server@0.1.0-r0?arch=x86_64",
+          "licenses": [
+            {
+              "expression": "Apache-2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:apk/alpine/alpine-baselayout-data@3.3.0-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/musl@1.2.3-r1?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libgpg-error@1.45-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libgcrypt@1.10.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/busybox@1.35.0-r25?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/busybox-binsh@1.35.0-r25?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/busybox?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libffi@3.4.2-r1?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libintl@0.21-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libblkid@2.38.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libmount@2.38.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/pcre@8.45-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/glib@2.72.3-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libsecret@0.20.5-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libbz2@1.0.8-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libcrypto3@3.0.5-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libexpat@2.4.8-r1?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/gdbm@1.23-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/xz-libs@5.2.6-r1?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libgcc@12.1.1_git20220630-r5?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libstdc++@12.1.1_git20220630-r5?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/mpdecimal@2.5.1-r1?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/ncurses-terminfo-base@6.3_p20220903-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/ncurses-libs@6.3_p20220903-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/ncurses-terminfo-base?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/readline@8.1.2-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/sqlite-libs@3.39.3-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libssl3@3.0.5-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/ssl_client@1.35.0-r25?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/python3@3.10.7-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/gettext-asprintf@0.21-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libunistring@1.0-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/gettext-libs@0.21-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libgomp@12.1.1_git20220630-r5?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libxml2@2.10.2-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/gettext@0.21-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/gettext-dev@0.21-r3?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/gettext-asprintf?arch=x86_64",
+        "pkg:apk/alpine/gettext-libs?arch=x86_64",
+        "pkg:apk/alpine/gettext?arch=x86_64",
+        "pkg:apk/alpine/libintl?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/pkgconf@1.9.3-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/bzip2-dev@1.0.8-r3?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libbz2?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libxml2-utils@2.10.2-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libxslt@1.1.36-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/docbook-xml@4.5-r7?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libxml2-utils?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/docbook-xsl@1.79.2-r4?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libxml2-utils?arch=x86_64",
+        "pkg:apk/alpine/libxslt?arch=x86_64",
+        "pkg:apk/alpine/docbook-xml?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/linux-headers@5.19.5-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libffi-dev@3.4.2-r1?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/linux-headers?arch=x86_64",
+        "pkg:apk/alpine/libffi?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libpcre16@8.45-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libpcre32@8.45-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libpcrecpp@8.45-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/pcre-dev@8.45-r2?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libpcre16?arch=x86_64",
+        "pkg:apk/alpine/libpcre32?arch=x86_64",
+        "pkg:apk/alpine/libpcrecpp?arch=x86_64",
+        "pkg:apk/alpine/pcre?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libuuid@2.38.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libfdisk@2.38.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libsmartcols@2.38.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/util-linux-dev@2.38.1-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libblkid?arch=x86_64",
+        "pkg:apk/alpine/libfdisk?arch=x86_64",
+        "pkg:apk/alpine/libmount?arch=x86_64",
+        "pkg:apk/alpine/libsmartcols?arch=x86_64",
+        "pkg:apk/alpine/libuuid?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/zlib-dev@1.2.12-r3?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/pkgconfig?arch=x86_64",
+        "pkg:apk/alpine/zlib?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/glib-dev@2.72.3-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/python3?arch=x86_64",
+        "pkg:apk/alpine/gettext-dev?arch=x86_64",
+        "pkg:apk/alpine/bzip2-dev?arch=x86_64",
+        "pkg:apk/alpine/libxml2-utils?arch=x86_64",
+        "pkg:apk/alpine/libxslt?arch=x86_64",
+        "pkg:apk/alpine/docbook-xml?arch=x86_64",
+        "pkg:apk/alpine/docbook-xsl?arch=x86_64",
+        "pkg:apk/alpine/glib?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libgpg-error-dev@1.45-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libgpg-error?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libgcrypt-dev@1.10.1-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libgcrypt?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/libsecret-dev@0.20.5-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libsecret?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/lua5.3-libs@5.3.6-r4?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libpcap@1.10.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/libssh2@1.10.0-r3?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/nmap@7.93-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/ca-certificates@20220614-r2?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/nghttp2-libs@1.49.0-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/brotli-libs@1.0.9-r8?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/c-ares@1.18.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/icu-data-en@71.1-r4?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/icu-libs@71.1-r4?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/icu-data?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/nodejs@16.17.0-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/ca-certificates?arch=x86_64",
+        "pkg:apk/alpine/nghttp2-libs?arch=x86_64"
+      ]
+    },
+    {
+      "ref": "pkg:apk/alpine/npm@8.19.1-r0?arch=x86_64",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:apk/alpine/hello-server@0.1.0-r0?arch=x86_64",
+      "dependsOn": [
+        "pkg:apk/alpine/libsecret-dev?arch=x86_64",
+        "pkg:apk/alpine/nmap?arch=x86_64",
+        "pkg:apk/alpine/nodejs?arch=x86_64",
+        "pkg:apk/alpine/npm?arch=x86_64",
+        "pkg:apk/alpine/pkgconfig?arch=x86_64"
+      ]
+    }
+  ]
+}
