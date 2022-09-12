@@ -1,7 +1,7 @@
 package:
-  name: hello-server
-  version: 0.1.0
-  description: vanta npm image
+  name: apko-npm-base
+  version: 1.0
+  description: apko-npm-base
   target-architecture:
     - all
   copyright:
@@ -29,7 +29,7 @@ environment:
       - npm
 
 pipeline:
-  - name: Build Node application
+  - name: Build NPM Base Image
     runs: |
       EXECDIR="${{targets.destdir}}/usr/bin"
       WEBAPPDIR="${{targets.destdir}}/usr/share/webapps/hello-server"

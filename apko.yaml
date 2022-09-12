@@ -5,7 +5,7 @@ contents:
     - '@local /work/packages'
   packages:
     - alpine-baselayout-data
-    - hello-server@local
+    - apko-npm-base@local
 accounts:
   groups:
     - groupname: nonroot
